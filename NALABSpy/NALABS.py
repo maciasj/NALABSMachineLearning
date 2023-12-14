@@ -15,7 +15,7 @@ from func_core.nalabs_rules import (
 DEFAULT_TEXT_COLUMN_NAME = "Requirement"
 DEFAULT_ID_COLUMN_NAME = "ID"
 DEFAULT_OUTPUT_FILE_PATH = "bad_smells.xlsx"
-DEFAULT_INPUT_FILE_PATH = "requirements.xlsx"
+DEFAULT_INPUT_FILE_PATH = "Requirements_FIDE_dataset.xlsx"
 
 nalabs_description = """
 NALABS: Natural Language Analysis of Bad Smells in Software Requirements\n

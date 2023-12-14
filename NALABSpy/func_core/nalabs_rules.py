@@ -129,7 +129,7 @@ def check_reading_score_rule(requirement):
     # Rule 2: Check for low readability (Flesch Reading Ease score)
     reading_ease_score = flesch_reading_ease(requirement)
     return (
-        f"Flesch Reading Ease: {reading_ease_score:.2f}"
+        f" {reading_ease_score:.2f}"
         if (
             # Adjust the threshold as needed
                 reading_ease_score
@@ -144,7 +144,7 @@ def check_subjectivity_rule(max_subjectivity_score, requirement):
     blob = TextBlob(requirement)
     subjectivity_score = blob.sentiment.subjectivity
     return (
-        f"Subjectivity Score: {subjectivity_score:.2f}"
+        f" {subjectivity_score:.2f}"
         if (
             # Adjust the threshold as needed
                 subjectivity_score
